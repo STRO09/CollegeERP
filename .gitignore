@@ -1,24 +1,46 @@
-# Compiled class file
+# === Java build artifacts ===
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
+
+# === Maven ===
+/target/
+
+# === Logs ===
+*.log
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === IDEs ===
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# === Config Files ===
+*.properties
+
+# But allow safe template/example config files
+!*.example
+
+# === Others ===
+*.ctxt
+hs_err_pid*
+replay_pid*
+.mtj.tmp/
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
